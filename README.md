@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # motoguard
 
 A new Flutter project.
@@ -15,3 +16,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# MotoGuard-v1.2.0
+finale
+>>>>>>> 86b2f68aee1edabbc76f18e761ae143f0b0d300c
