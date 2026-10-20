@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "451246976546",
+    "firebase_url": "https://seretei8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "seretei8",
+    "storage_bucket": "seretei8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451246976546:android:bb073ccbf2529104ed247b",
+        "android_client_info": {
+          "package_name": "com.example.motoguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451246976546-k1g8v3f5pfhhj5nfbrto4r4v354t084n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjHAurQBhbY3gEfqV19v7lcdoqM08dkUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451246976546-k1g8v3f5pfhhj5nfbrto4r4v354t084n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "451246976546-affgoqpbiugc72rskcisqg89fnotkojd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.motoguard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

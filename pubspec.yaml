@@ -1,0 +1,93 @@
+name: moto
+description: "MotoGuard Flutter project - Real-time GPS tracking for motorcycles"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # =====================================================
+  # UI / UTILITIES
+  # =====================================================
+
+  logger: ^2.4.0
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.3
+  get: ^4.7.3
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.2.3
+
+  # =====================================================
+  # MAP / LOCATION
+  # =====================================================
+
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  geolocator: ^14.1.1
+  crypto: ^3.0.7
+
+  # =====================================================
+  # FIREBASE
+  # =====================================================
+
+  firebase_core: ^4.2.0
+  firebase_auth: ^6.1.0
+  cloud_firestore: ^6.10.0
+  firebase_database: ^12.6.0
+  cloud_functions: ^6.0.0
+  firebase_messaging: ^16.7.0
+
+  # =====================================================
+  # NOTIFICATIONS / NETWORK
+  # (phone notifications: status bar, tray, sound, vibrate)
+  # =====================================================
+
+  flutter_local_notifications: ^22.3.2
+  http: ^1.6.0
+  url_launcher: ^6.3.0
+
+  # =====================================================
+  # FORMS / IMAGES
+  # =====================================================
+
+  pin_code_fields: ^8.0.1
+  image_picker: ^1.0.0
+
+  # =====================================================
+  # ARDUINO USB SERIAL
+  # =====================================================
+
+  usb_serial: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # Generates the app launcher icon from assets/quad_bike.png
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/startpage.png
+    - assets/quad_bike.png
+    - assets/bike.png
+
+# =====================================================
+# APP LOGO / LAUNCHER ICON
+# Run: dart run flutter_launcher_icons
+# =====================================================
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/quad_bike.png"
+  adaptive_icon_background: "#0B1220"
+  adaptive_icon_foreground: "assets/quad_bike.png"
+  remove_alpha_ios: true
